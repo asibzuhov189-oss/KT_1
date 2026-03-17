@@ -1,3 +1,52 @@
+/* ========== СТРАНИЦА ВЫБОРА ПЕРСОНАЖЕЙ ========== */
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.character-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border: 1px solid var(--border-color);
+}
+
+.character-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary-color);
+}
+
+.character-card-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background-color: #f5f5f5;
+    display: block;
+}
+
+.character-card-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    background: white;
+    border-top: 1px solid var(--border-color);
+}
+
+
+
+
+
 /* Сброс и базовые стили */
 * {
     margin: 0;
