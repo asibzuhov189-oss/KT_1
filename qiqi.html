@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ци Ци — Гайд по персонажу Genshin Impact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="img/лого.png" alt="Логотип" height="60"></a>
+            </div>
+            <nav class="main-nav">
+                <a href="#about" class="nav-link">Подробности</a>
+                <a href="#abilities" class="nav-link">Способности</a>
+                <a href="#weapons" class="nav-link">Оружие</a>
+                <a href="#artifacts" class="nav-link">Артефакты</a>
+                <a href="#recommendations" class="nav-link">Рекомендации</a>
+                <a href="#gallery" class="nav-link">Галерея</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Герой-секция -->
+            <section class="hero-section">
+                <h1 class="main-title">Ци Ци</h1>
+                <div class="hero-image">
+                    <img src="img/чича.jpg" alt="Ци Ци">
+                </div>
+            </section>
+
+            <!-- Подробности -->
+            <section id="about" class="content-section">
+                <h2 class="section-title">Подробности</h2>
+                <div class="section-content">
+                    <p><strong>Ци Ци</strong> – маленькая зомби-девочка, которая работает в аптеке «Бубу» в Ли Юэ. Будучи воскрешённой с помощью магии адептов, она сохранила немного воспоминаний и теперь помогает людям, собирая травы и исцеляя раны. В игре Ци Ци является 5⭐ Крио персонажем, владеющим одноручным мечом. Она отличный целитель, способный лечить всю команду и накладывать статус Крио на врагов.</p>
+                    
+                    <table class="character-table">
+                        <tr><td>Рейтинг</td><td>С-позиция в тир-листе</td></tr>
+                        <tr><td>Редкость</td><td><img src="img/звезда.png" alt=""><img src="img/звезда.png" alt=""><img src="img/звезда.png" alt=""><img src="img/звезда.png" alt=""><img src="img/звезда.png" alt=""></td></tr>
+                        <tr>
+                            <td>Дата выхода</td>
+                            <td>1 декабря 2020</td>
+                        </tr>
+                        <tr><td>Элемент</td><td>Крио</td></tr>
+                        <tr><td>Оружие</td><td>Одноручный меч</td></tr>
+                        <tr><td>Пол</td><td>Женский</td></tr>
+                        <tr><td>Регион</td><td>Ли Юэ</td></tr>
+                        <tr><td>День рождения</td><td>3 марта</td></tr>
+                        <tr><td>Знак зодиака</td><td>Рыбы</td></tr>
+                        <tr><td>Возраст</td><td>больше 500 лет</td></tr>
+                        <tr><td>Рост</td><td>130 см</td></tr>
+                        <tr><td>Особое блюдо</td><td>Блюдо без будущего</td></tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Способности -->
+            <section id="abilities" class="content-section">
+                <h2 class="section-title">Способности</h2>
+                <div class="section-content">
+                    <p><strong>Ци Ци</strong> – целитель, который лечит всю команду с помощью атак и элементального навыка. Её лечение зависит от силы атаки, поэтому ей нужна атака, а не HP.</p>
+
+                    <h3 class="subsection-title">Активные способности</h3>
+                    <div class="abilities-grid">
+                        <!-- Обычная атака -->
+                        <div class="ability-card">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Обычная атака</span>
+                                <h4 class="ability-name">Древнее искусство меча</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p><strong>Обычная атака:</strong> До 5 быстрых ударов мечом.</p>
+                                <p><strong>Заряженная атака:</strong> Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.</p>
+                                <p><strong>Атака в падении:</strong> Падает на землю, нанося урон по площади.</p>
+                            </div>
+                            <div class="ability-stats">
+                                <span>Урон 1-го удара: 55,2%</span>
+                                <span>Урон 2-го удара: 54,2%</span>
+                                <span>Урон 3-го удара: 63,6%</span>
+                                <span>Урон 4-го удара: 70,4%</span>
+                                <span>Урон 5-го удара: 88,1%</span>
+                            </div>
+                        </div>
+
+                        <!-- Элементальный навык -->
+                        <div class="ability-card">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Элементальный навык</span>
+                                <h4 class="ability-name">Искусство Адепта: Вестник стужи</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p>Ци Ци использует талисман Ледяной крови для того, чтобы призвать Вестника стужи, и наносить Крио урон окружающим врагам.</p>
+                                <p><strong>Талисман удачи:</strong> когда атаки персонажа попадают по врагу с меткой, лечит всю команду.</p>
+                            </div>
+                            <div class="ability-stats">
+                                <span>Урон навыка: 96%</span>
+                                <span>Периодический урон: 36%</span>
+                                <span>Лечение за тик: 60,8% силы атаки + 381</span>
+                                <span>Длительность: 15 сек</span>
+                                <span>Откат: 30 сек</span>
+                            </div>
+                        </div>
+
+                        <!-- Взрыв стихии -->
+                        <div class="ability-card">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Взрыв стихии</span>
+                                <h4 class="ability-name">Искусство Адепта: Хранитель Фортуны</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p>Ци Ци выпускает на волю запечатанную в её теле мощь Адептов, помечая ближайших врагов талисманом Фортуны, который наносит им Крио урон.</p>
+                            </div>
+                            <div class="ability-stats">
+                                <span>Урон взрыва: 284%</span>
+                                <span>Длительность метки: 15 сек</span>
+                                <span>Откат: 20 сек</span>
+                                <span>Потребление энергии: 80</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Пассивные таланты</h3>
+                    <div class="abilities-grid passive-grid">
+                        <div class="ability-card passive">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Пассивный талант</span>
+                                <h4 class="ability-name">Долголетие</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p>Когда персонаж, находящийся под эффектами навыка Искусство Адепта: Вестник стужи, совершает элементальную реакцию, его бонус получаемого лечения увеличивается на 20% в течение 8 сек.</p>
+                            </div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Пассивный талант</span>
+                                <h4 class="ability-name">Созерцание тайн волшебства</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p>При попадании обычной и заряженной атакой у Ци Ци есть 50% шанс применить на них талисман Фортуны на 6 сек. Может возникнуть раз в 30 сек.</p>
+                            </div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header">
+                                <span class="ability-type skill">Пассивный талант</span>
+                                <h4 class="ability-name">Пыльные воспоминания</h4>
+                            </div>
+                            <div class="ability-description">
+                                <p>Отмечает диковинки Ли Юэ на мини-карте.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Созвездия</h3>
+                    <div class="abilities-grid passive-grid">
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">1 созвездие</span></div>
+                            <div class="ability-description"><p>Когда Вестник стужи попадает по цели, помеченной талисманом Фортуны, Ци Ци восстанавливает 2 ед. энергии.</p></div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">2 созвездие</span></div>
+                            <div class="ability-description"><p>Увеличивает урон обычной и заряженной атаки Ци Ци по противникам с эффектом Крио на 15%.</p></div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">3 созвездие</span></div>
+                            <div class="ability-description"><p>Увеличивает уровень элементального навыка на 3</p></div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">4 созвездие</span></div>
+                            <div class="ability-description"><p>Уменьшает силу атаки врагов, помеченных талисманом Фортуны, на 20%.</p></div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">5 созвездие</span></div>
+                            <div class="ability-description"><p>Увеличивает уровень взрыра стихий на 3.</p></div>
+                        </div>
+                        <div class="ability-card passive">
+                            <div class="ability-header"><span class="ability-type skill">6 созвездие</span></div>
+                            <div class="ability-description"><p>Использование навыка Искусство Адепта: Хранитель Фортуны воскрешает ближайших павших персонажей вашего отряда и восстанавливает им 50% HP.
+Может возникнуть раз в 15 мин.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Оружие -->
+            <section id="weapons" class="content-section">
+                <h2 class="section-title">Лучшее оружие</h2>
+                <div class="section-content">
+                    <span class="ability-type skill">Для максимального лечения и урона:</span>
+                    <div class="weapons-grid">
+                        <div class="weapon-card">
+                            <div class="weapon-icon"><img src="img/небесный_меч.webp" alt="Небесный меч"></div>
+                            <div class="weapon-info">
+                                <h3>Небесный меч</h3>
+                                <p>Увеличивает силу атаки на <b>20-40%</b>. При использовании взрыва стихии даёт <b>10%</b> скорости передвижения и атаки на 12 сек.</p>
+                            </div>
+                        </div>
+                        <div class="weapon-card">
+                            <div class="weapon-icon"><img src="img/меч_сокола.webp" alt="Меч сокола"></div>
+                            <div class="weapon-info">
+                                <h3>Меч сокола</h3>
+                                <p>Увеличивает силу атаки на <b>20-40%</b>. При получении урона создаёт щит, поглощающий урон и увеличивающий атаку на 100%.</p>
+                            </div>
+                        </div>
+                        <div class="weapon-card">
+                            <div class="weapon-icon"><img src="img/церемониальный_меч.png" alt="Церемониальный меч"></div>
+                            <div class="weapon-info">
+                                <h3>Церемониальный меч</h3>
+                                <p>При попадании элементальным навыком с <b>40-80%</b> шансом сбрасывает его откат. Может возникнуть раз в <b>30-16 сек</b>.</p>
+                            </div>
+                        </div>
+                        <div class="weapon-card">
+                            <div class="weapon-icon"><img src="img/фавоний_меч.webp" alt="Фавонийский меч"></div>
+                            <div class="weapon-info">
+                                <h3>Фавонийский меч</h3>
+                                <p>Критические атаки имеют <b>60-100%</b> шанс создать элементальные частицы, восстанавливающие 6 ед. энергии.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Артефакты -->
+            <section id="artifacts" class="content-section">
+                <h2 class="section-title">Лучшие артефакты</h2>
+                <div class="section-content">
+                    <div class="artifacts-grid">
+                        <div class="artifact-card">
+                            <div class="artifact-icon"><img src="img/стойкойсть_милелита.webp" alt="Стойкость Миллелита"></div>
+                            <div class="artifact-info">
+                                <h3>Стойкость Миллелита</h3>
+                                <p><strong>2 части:</strong> HP +20%.</p>
+                                <p><strong>4 части:</strong> Когда элементальный навык попадает по врагу, сила атаки всех членов отряда увеличивается на 20%, а прочность их щитов на 30% на 3 сек.</p>
+                                <p><em>Хорошо для саппорта, но Ци Ци не создаёт щиты. Однако бафф атаки работает.</em></p>
+                            </div>
+                        </div>
+                        <div class="artifact-card">
+                            <div class="artifact-icon"><img src="img/эмблема_рассечённой_судьбы.webp" alt="Эмблема рассечённой судьбы"></div>
+                            <div class="artifact-info">
+                                <h3>Эмблема рассечённой судьбы</h3>
+                                <p><strong>2 части:</strong> Восстановление энергии +20%.</p>
+                                <p><strong>4 части:</strong> Увеличивает урон взрыва стихии на 25% от восстановления энергии.</p>
+                                <p><em>Ульту Ци Ци дорогая, и урон может быть неплохим.</em></p>
+                            </div>
+                        </div>
+                        <div class="artifact-card">
+                            <div class="artifact-icon"><img src="img/молюск.webp" alt="молюск"></div>
+                            <div class="artifact-info">
+                                <h3>Моллюск морских красок</h3>
+                                <p><strong>2 части:</strong> Повышает бонус лечения на 15%.</p>
+                                <p><strong>4 части:</strong> При лечении создает на 3 сек. Пузырь морских красок, который записывает полученное лечение, включая лишнее. По истечении времени Пузырь взрывается и наносит физический урон в размере 90% от поглощенного лечения. Пузырь может возникнуть раз в 3.5 сек. и поглотить до 30.000 HP. Эффект срабатывает, даже если носитель сета находится в кармане.</p>
+                                <p><em>Для выживаемости.</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Рекомендации -->
+            <section id="recommendations" class="content-section">
+                <h2 class="section-title">Рекомендации</h2>
+                <div class="section-content">
+                    <div class="recommendation-box">
+                        <p>Ци Ци лучше всего работает как чистый саппорт. Вам нужно максимизировать силу атаки и скорость атаки, чтобы быстрее накапливать энергию и лечить.</p>
+                        <p>Используйте Церемониальный меч, чтобы чаще активировать элементальный навык и вешать метки. Фавонийский меч поможет заряжать ульту.</p>
+                        <p>В артефактах ставьте % от силы атаки в часах и короне, бонус лечения в короне, если нужно больше хила. Восстановление энергии в часах, если не хватает.</p>
+                    </div>
+                    <div class="pros-cons-grid">
+                        <div class="pros-section">
+                            <h3 class="pros-title">Преимущества</h3>
+                            <ul class="pros-list">
+                                <p>Ци Ци дает огромное количество лечения как основному дамагеру, так и всему отряду, делая команду практически бессмертной в бою.</p>
+                                <p>Периодически вешает на врагов Крио статус, помогая в вызове реакций.</p>
+                                <p>Является универсальным персонажем, способным также самостоятельно наносить урон, если прокачать как дамагера.</p>
+                                <p>Отмечает диковинки из Ли Юэ на карте, упрощая их сбор.</p>
+                            </ul>
+                        </div>
+                        <div class="cons-section">
+                            <h3 class="cons-title">Недостатки</h3>
+                            <ul class="cons-list">
+                                <p>Элементальный навык восстанавливает мало энергии, поэтому Ци Ци не получится использовать как батарейку для других дамагеров, зависимых от быстрого набора ульты.</p>
+                                <p>Взрыв стихий стоит очень дорого, что обязывает собирать в артефактах восстановление энергии или брать в отряд персонажа-батарейку, а также не дает возможность экстренно вылечить персонажей в любой момент.</p>
+                                <p>Взрыв стихий стоит очень дорого, что обязывает собирать в артефактах восстановление энергии или брать в отряд персонажа-батарейку, а также не дает возможность экстренно вылечить персонажей в любой момент.</p>
+                                <p>В отличие от большинства других саппортов легендарной редкости, Ци Ци не дает никаких усилений команде.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Галерея -->
+            <section id="gallery" class="content-section">
+                <h2 class="section-title">Галерея</h2>
+                <div class="section-content">
+                    <div class="gallery-grid">
+                        <div class="gallery-item"><img src="img/чича1peg.jpeg" alt="Ци Ци арт 1"></div>
+                        <div class="gallery-item"><img src="img/чича2.jpeg" alt="Ци Ци арт 2"></div>
+                        <div class="gallery-item"><img src="img/чича3.jpeg" alt="Ци Ци арт 3"></div>
+                        <div class="gallery-item"><img src="img/чича4.webp" alt="Ци Ци арт 3"></div>
+                        <div class="gallery-item"><img src="img/чича5.webp" alt="Ци Ци арт 3"></div>
+                        <div class="gallery-item"><img src="img/чича6.webp" alt="Ци Ци арт 3"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-column">
+                <h4>Информация о сайте</h4>
+                <p>Создатель: Шибзухов Андзор</p>
+                <p>Здесь могла быть ваша реклама</p>
+            </div>
+            <div class="footer-column">
+                <h4>Контакты</h4>
+                <p>Контактная информация</p>
+                <p>Дополнительные сведения</p>
+            </div>
+            <div class="footer-column">
+                <h4>Персонаж</h4>
+                <p>Ци Ци</p>
+                <p>Genshin Impact</p>
+                <p>miHoYo / HoYoverse</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Гайд по Ци Ци. Фанатский сайт. Все права на персонажа принадлежат HoYoverse.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+                }
+            });
+        });
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.main-header');
+            if (window.scrollY > 10) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+    </script>
+</body>
+</html>
